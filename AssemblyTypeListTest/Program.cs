@@ -3,6 +3,7 @@ using System.Reflection;
 using System.IO;
 using System.Collections.Generic;
 using FubuCore;
+using System.Configuration;
 
 namespace AssemblyTypeListTest
 {
@@ -12,6 +13,9 @@ namespace AssemblyTypeListTest
 
 		public static void Main (string[] args)
 		{
+			//SO this one is successful
+			var @object = ConfigurationManager.GetSection ("system.codedom");
+
 			if (!Directory.Exists ("fubu"))
 				Directory.CreateDirectory ("fubu");
 
