@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyTypeListTest", "AssemblyTypeListTest\AssemblyTypeListTest.csproj", "{903A7912-CFC7-45FF-BB8F-C91C53C1BA37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testlibrary", "testlibrary\testlibrary.csproj", "{6FC5D966-CF5C-4A3B-BB2F-8AB2552350B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{CED87BB6-2C92-4735-90D5-147D8F663F0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FC5D966-CF5C-4A3B-BB2F-8AB2552350B8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6FC5D966-CF5C-4A3B-BB2F-8AB2552350B8}.Debug|x86.Build.0 = Debug|Any CPU
+		{6FC5D966-CF5C-4A3B-BB2F-8AB2552350B8}.Release|x86.ActiveCfg = Release|Any CPU
+		{6FC5D966-CF5C-4A3B-BB2F-8AB2552350B8}.Release|x86.Build.0 = Release|Any CPU
+		{903A7912-CFC7-45FF-BB8F-C91C53C1BA37}.Debug|x86.ActiveCfg = Debug|x86
+		{903A7912-CFC7-45FF-BB8F-C91C53C1BA37}.Debug|x86.Build.0 = Debug|x86
+		{903A7912-CFC7-45FF-BB8F-C91C53C1BA37}.Release|x86.ActiveCfg = Release|x86
+		{903A7912-CFC7-45FF-BB8F-C91C53C1BA37}.Release|x86.Build.0 = Release|x86
+		{CED87BB6-2C92-4735-90D5-147D8F663F0D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CED87BB6-2C92-4735-90D5-147D8F663F0D}.Debug|x86.Build.0 = Debug|Any CPU
+		{CED87BB6-2C92-4735-90D5-147D8F663F0D}.Release|x86.ActiveCfg = Release|Any CPU
+		{CED87BB6-2C92-4735-90D5-147D8F663F0D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = AssemblyTypeListTest\AssemblyTypeListTest.csproj
+	EndGlobalSection
+EndGlobal
