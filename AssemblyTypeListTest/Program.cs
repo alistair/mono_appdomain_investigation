@@ -20,7 +20,7 @@ namespace AssemblyTypeListTest
 				Directory.CreateDirectory ("fubu");
 
 			File.Copy ("AssemblyTypeListTest.exe", Path.Combine ("fubu", "AssemblyTypeListTest.exe"), true);
-			File.Copy ("AssemblyTypeListTest.exe.mdb", Path.Combine ("fubu", "AssemblyTypeListTest.exe.mdb"), true);
+			//File.Copy ("AssemblyTypeListTest.exe.mdb", Path.Combine ("fubu", "AssemblyTypeListTest.exe.mdb"), true);
 		    File.Copy(Path.Combine("..", "..", "..", "testlibrary", "bin", "Debug", "testlibrary.dll"),
 		              Path.Combine("fubu", "testlibrary.dll"), true);
 			File.Copy(Path.Combine("..", "..", "..", "SharedLibrary", "bin", "Debug", "SharedLibrary.dll"),
