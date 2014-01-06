@@ -23,6 +23,10 @@ namespace AssemblyTypeListTest
 		{
 			//But this one fails...
 			var @object = ConfigurationManager.GetSection ("system.codedom");
+		    var type = Type.GetType("testlibrary2.MyClassDoesNotExist, testlibrary2");
+
+		    if (type == null)
+		        return "No Type Found";
 			return string.Empty;
 		}
 	}
